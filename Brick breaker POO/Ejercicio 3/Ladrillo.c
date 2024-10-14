@@ -45,6 +45,25 @@ void check_bola_brick_collision(Bola* bola, Ladrillo* ladrillos[5][10]) {
 void render_ladrillo(Ladrillo* ladrillo, SDL_Renderer* renderer) {
     if (!ladrillo->destruido) {
         render_entity((Entity*)ladrillo, renderer); // Llama a la función de renderizado de la entidad
+        // Guardamos el color original del renderer
+        Uint8 r, g, b, a;
+        SDL_GetRenderDrawColor(renderer, &r, &g, &b, &a);
+
+        // Establecemos el color blanco para el contorno
+        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255); // Blanco
+
+        // Obtenemos las dimensiones del ladrillo (asumiendo que es un rectángulo)
+        SDL_Rect rect_contorno;
+        rect_contorno.x = ladrillo->base.x;        // Posición x del ladrillo
+        rect_contorno.y = ladrillo->base.y;        // Posición y del ladrillo
+        rect_contorno.w = ladrillo->base.width;    // Ancho del ladrillo
+        rect_contorno.h = ladrillo->base.height;     // Alto del ladrillo
+
+        // Dibuja el contorno
+        SDL_RenderDrawRect(renderer, &rect_contorno);
+
+        // Restauramos el color original del renderer
+        SDL_SetRenderDrawColor(renderer, r, g, b, a);
     }
 }
 

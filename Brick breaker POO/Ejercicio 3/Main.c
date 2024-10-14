@@ -19,7 +19,7 @@ int main() {
     Bola* bola = crear_bola (400, 300, 20, 20, 3, -3);
     Paleta* paleta = crear_paleta(350, 500, 20, 100, 15);
     Ladrillo* ladrillos[5][10];
-
+  
    
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 10; j++) {
@@ -46,13 +46,15 @@ int main() {
         verificar_colision_bola_paleta(bola, paleta); // Verificar colisiones con la paleta
         // Verificar colisiones con los ladrillos (ahora pasa el array de ladrillos)
         check_bola_brick_collision(bola, ladrillos);
-
+       
 
 
         // Limpiar pantalla
         SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
         SDL_RenderClear(renderer);
-
+       
+       
+        
         // Renderizar la bola, la paleta y los ladrillos
         render_entity(bola, renderer);
         render_paleta(paleta, renderer);
