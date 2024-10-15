@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\powerup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\powerup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\powerup.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\powerup.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\powerup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\powerup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Ladrillo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Ladrillo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Bola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Bola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\constantes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\constantes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Bola.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Bola.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Entity.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Entity.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Ladrillo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Ladrillo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Paleta.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,28 +47,8 @@
       "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Paleta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Ladrillo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Ladrillo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Bola.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Bola.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\constantes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\constantes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Bola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Bola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Entity.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFCBF592-0E3E-4810-A7A0-5FD9DB9B81C7}|Ejercicio 3\\Ejercicio 3.vcxproj|solutionrelative:Ejercicio 3\\Entity.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,17 +58,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Main.c",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Main.c",
               "RelativeDocumentMoniker": "Ejercicio 3\\Main.c",
               "ToolTip": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Main.c",
               "RelativeToolTip": "Ejercicio 3\\Main.c",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-06T04:31:08.455Z",
               "IsPinned": true,
@@ -76,17 +76,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Ladrillo.c",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Ladrillo.c",
               "RelativeDocumentMoniker": "Ejercicio 3\\Ladrillo.c",
               "ToolTip": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Ladrillo.c",
               "RelativeToolTip": "Ejercicio 3\\Ladrillo.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAUAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-10T21:53:06.706Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -96,14 +95,14 @@
               "RelativeDocumentMoniker": "Ejercicio 3\\powerup.c",
               "ToolTip": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\powerup.c",
               "RelativeToolTip": "Ejercicio 3\\powerup.c",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADYAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-15T00:09:38.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "powerup.h",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\powerup.h",
               "RelativeDocumentMoniker": "Ejercicio 3\\powerup.h",
@@ -116,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "constantes.h",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\constantes.h",
               "RelativeDocumentMoniker": "Ejercicio 3\\constantes.h",
@@ -128,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Paleta.h",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Paleta.h",
               "RelativeDocumentMoniker": "Ejercicio 3\\Paleta.h",
@@ -136,12 +135,11 @@
               "RelativeToolTip": "Ejercicio 3\\Paleta.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-10T21:52:11.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T21:52:11.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Paleta.c",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Paleta.c",
               "RelativeDocumentMoniker": "Ejercicio 3\\Paleta.c",
@@ -149,24 +147,23 @@
               "RelativeToolTip": "Ejercicio 3\\Paleta.c",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-10T21:52:43.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T21:52:43.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Bola.c",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Bola.c",
               "RelativeDocumentMoniker": "Ejercicio 3\\Bola.c",
               "ToolTip": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Bola.c",
               "RelativeToolTip": "Ejercicio 3\\Bola.c",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAACwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-11T16:41:17.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Bola.h",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Bola.h",
               "RelativeDocumentMoniker": "Ejercicio 3\\Bola.h",
@@ -178,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Entity.c",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Entity.c",
               "RelativeDocumentMoniker": "Ejercicio 3\\Entity.c",
@@ -190,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Ladrillo.h",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Ladrillo.h",
               "RelativeDocumentMoniker": "Ejercicio 3\\Ladrillo.h",
@@ -198,12 +195,11 @@
               "RelativeToolTip": "Ejercicio 3\\Ladrillo.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-10T21:52:22.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T21:52:22.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Entity.h",
               "DocumentMoniker": "C:\\Sistemas comp\\sc-2420-eval-u3-cuchana\\Brick breaker POO\\Ejercicio 3\\Entity.h",
               "RelativeDocumentMoniker": "Ejercicio 3\\Entity.h",
