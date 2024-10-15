@@ -4,6 +4,7 @@
 #include "bola.h"
 #include "paleta.h"
 #include "ladrillo.h"
+#include "powerup.h"
 
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
@@ -53,7 +54,14 @@ int main() {
         SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
         SDL_RenderClear(renderer);
        
-       
+        if (activar_lluvia_powerup) {
+            generar_lluvia_powerup();
+            activar_lluvia_powerup = false;
+        }
+
+        actualizar_lluvia_powerup(bola, &score);
+        render_powerup(cuadritos_powerup, renderer);
+
         
         // Renderizar la bola, la paleta y los ladrillos
         render_entity(bola, renderer);

@@ -496,9 +496,143 @@ Continuando, ya teniendo todos los metodos listos, funcionando empece a organiza
 5. check_bola_brick_collision
 6. Empece con todos los render (1 para todos los ladrillos y otro para la destruccion)
 
-En este punto todo el juego funcionaba a la perfeccion, por lo cual hare un power up que sea que al obtener cada 20 puntos haya una lluvia de puntaje extra x5.
+En este punto todo el juego funcionaba a la perfeccion, por lo cual hare un power up que sea que al obtener 50 puntos haya una lluvia de puntaje extra x5.
+
+Primero cree una rama que se llama powerup, y en esta cree una clase powerup donde use el entity y agregue un bool activo; 
+
+Hice un arreglo de 5 cuadritos e hice metodos para crear, generar, update y renderizar la lluvia. No use destruir porque me saco un error cuando colisionaba porque los estoy manejando en un array entonces no hay que destruirlo
+
+Para poder manejar lo de que se ative solo cuando se llega a 50 puntos edite el metodo check_bola_brick_collision en ladrillo
+```c
+if (score % 50 == 0 && score > 0) {  // Activar solo cuando el score sea un múltiplo de 50
+    activar_lluvia_powerup = true;
+}
+```
+Apartir de esto continue con PowerUp.c 
+
+Cree la estructura de la misma forma, con azul de color, la razon por la cual no uso una variable velocidad es porque estan quietos al inicio y despues se mueven, por lo cual puedo sumar 1 en y 
+Creo el arreglo de 5 cuadritos y luego en generar lluvia lo uso, primero defino una posicion aleatoria en x, luego los inicializo en 0 en y para que esten arriba, y les doy tamaño de 10x10 y aqui el activo es verdadero
+
+Luego en actualizar_lluvia_powerup hago la caida lenta con base.y+=1, detecto la colision y en vez de liberar la memoria, desactivo el cuadro con el que choco la bola, si eso pasa se suman 3 puntos al puntaje total, cuando el cuadro cae del todo se desactiva
+El render es igual al resto pero con el array. 
+
+Realmente para el power up tuve que pensar que atributos adicionales necesitaba, como lo iba a relacionar con bola y ladrillo y los metodos
+Codigo: 
+- Powerup.h
+```C
+#ifndef POWERUP_H
+#define POWERUP_H
+
+#include "Entity.h"
+#include "Bola.h"
+#include <stdbool.h>
+
+typedef struct PowerUpCuadrito {
+    Entity base;
+    bool activo;
+} PowerUpCuadrito;
+
+extern PowerUpCuadrito cuadritos_powerup[5];  // Ajustado a 5 cuadritos
+
+PowerUpCuadrito* crear_powerup_cuadrito(int x, int y, int width, int height);
+void destruir_powerup_cuadrito(PowerUpCuadrito* this);
+void generar_lluvia_powerup();
+void actualizar_lluvia_powerup(Bola* bola, int* score);
+void render_lluvia_powerup(SDL_Renderer* renderer);
+#endif
+```
+- Powerup.c: 
+```C
+#include "PowerUp.h"
+#include <stdlib.h>
+#include <SDL.h>
+
+// Crear un cuadrito de power-up
+PowerUpCuadrito* crear_powerup_cuadrito(int x, int y, int width, int height) {
+    PowerUpCuadrito* cuadrito = (PowerUpCuadrito*)malloc(sizeof(PowerUpCuadrito));
+    if (cuadrito != NULL) {
+        cuadrito->base.x = x;
+        cuadrito->base.y = y;
+        cuadrito->base.width = width;
+        cuadrito->base.height = height;
+        cuadrito->activo = true;
+    }
+    return cuadrito;
+}
+PowerUpCuadrito cuadritos_powerup[5];  // Definición de la variable global
 
 
+
+
+// Generar la lluvia de cuadritos
+void generar_lluvia_powerup() {
+    for (int i = 0; i < 5; i++) {  // Cambiado a 5 cuadritos
+        cuadritos_powerup[i].base.x = rand() % 800;  // Posición aleatoria en el eje X
+        cuadritos_powerup[i].base.y = 0;  // Empiezan en la parte superior
+        cuadritos_powerup[i].base.width = 20;
+        cuadritos_powerup[i].base.height = 20;
+        cuadritos_powerup[i].activo = true;
+    }
+}
+
+// Actualizar la lluvia de cuadritos
+void actualizar_lluvia_powerup(Bola* bola, int* score) {
+    for (int i = 0; i < 5; i++) {  // Cambiado a 5 cuadritos
+        if (cuadritos_powerup[i].activo) {
+            cuadritos_powerup[i].base.y += 1;  // Velocidad de caída lenta
+
+            // Colisión con la bola
+            if (bola->base.x < cuadritos_powerup[i].base.x + cuadritos_powerup[i].base.width &&
+                bola->base.x + bola->base.width > cuadritos_powerup[i].base.x &&
+                bola->base.y < cuadritos_powerup[i].base.y + cuadritos_powerup[i].base.height &&
+                bola->base.y + bola->base.height > cuadritos_powerup[i].base.y) {
+
+                // Aquí solo desactivamos el cuadrito en lugar de liberar memoria
+                cuadritos_powerup[i].activo = false;  // Desactivar cuadrito
+                *score += 3;  // Sumar 3 puntos al score total
+            }
+
+            // Si el cuadrito sale de la pantalla, desactivarlo
+            if (cuadritos_powerup[i].base.y > 600) {  // Suponiendo una pantalla de altura 600px
+                cuadritos_powerup[i].activo = false;  // Solo desactivar
+            }
+        }
+    }
+}
+
+// Renderizar la lluvia de cuadritos
+void render_lluvia_powerup(SDL_Renderer* renderer) {
+    for (int i = 0; i < 5; i++) {  // Cambiado a 5 cuadritos
+        if (cuadritos_powerup[i].activo) {
+            SDL_Rect rect = { cuadritos_powerup[i].base.x, cuadritos_powerup[i].base.y,
+                              cuadritos_powerup[i].base.width, cuadritos_powerup[i].base.height };
+            SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);  // Color azul para los cuadritos
+            SDL_RenderFillRect(renderer, &rect);
+        }
+    }
+}
+```
+- Parte en el main: 
+```C
+ if (activar_lluvia_powerup) {
+     generar_lluvia_powerup();
+     activar_lluvia_powerup = false;
+ }
+
+ actualizar_lluvia_powerup(bola, &score);
+ render_lluvia_powerup(renderer);
+```
+
+## Evidencia final del juego: 
+![alt text](image.png)
+Aqui podemos ver que destruye 2 powerups y el puntaje sube 6. 
+
+
+## CORRECCION DIAGRAMA DE CLASES 
+Bueno, mientras trabaje el codigo note que me hizo falta una asociacion de Bola a Ladrillo y ahora al PowerUp. 
+Al agregar el powerup hay una agregacion nueva al main.
+
+![alt text](<Clase UML (3).jpeg>)
 
 
 

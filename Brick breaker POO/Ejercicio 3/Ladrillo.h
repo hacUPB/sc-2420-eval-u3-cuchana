@@ -11,6 +11,7 @@ typedef struct Ladrillo {
     bool destruido;
 } Ladrillo;
 
+extern bool activar_lluvia_powerup;
 extern int score;// lo cree extern para que cualquier clase pudiera acceder a este dato
 Ladrillo ladrillos[5][10];
 Ladrillo* crear_ladrillo(int x, int y, int height, int width);  

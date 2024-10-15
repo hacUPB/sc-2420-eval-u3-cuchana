@@ -15,7 +15,7 @@ Ladrillo* crear_ladrillo(int x, int y, int height, int width) {
 }
 
 int score = 0;
-
+bool activar_lluvia_powerup = false;
 
 // Función para verificar la colisión entre la bola y los ladrillos
 void check_bola_brick_collision(Bola* bola, Ladrillo* ladrillos[5][10]) {
@@ -32,7 +32,10 @@ void check_bola_brick_collision(Bola* bola, Ladrillo* ladrillos[5][10]) {
                     // Si colisiona, destruimos el ladrillo y cambiamos la dirección de la bola
                     ladrillo->destruido = true;
                     bola->dy *= -1;  // Cambiamos la dirección vertical de la bola
-                    score += 10;     // Aumentamos el puntaje
+                    score += 10;  // Incrementar el score por ladrillo destruido
+                    if (score % 50 == 0 && score > 0) {  // Activar solo cuando el score sea un múltiplo de 40
+                        activar_lluvia_powerup = true;
+                    }
                     printf("Puntaje: %d\n", score); // Mostrar el puntaje
                     
                 }
