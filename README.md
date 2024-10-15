@@ -624,7 +624,8 @@ void render_lluvia_powerup(SDL_Renderer* renderer) {
 ```
 
 ## Evidencia final del juego: 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/f2466ebc-a65f-4bc8-bd13-cf2811ce1883)
+
 Aqui podemos ver que destruye 2 powerups y el puntaje sube 6. 
 
 
@@ -632,7 +633,8 @@ Aqui podemos ver que destruye 2 powerups y el puntaje sube 6.
 Bueno, mientras trabaje el codigo note que me hizo falta una asociacion de Bola a Ladrillo y ahora al PowerUp. 
 Al agregar el powerup hay una agregacion nueva al main.
 
-![alt text](<Clase UML (3).jpeg>)
+![image](https://github.com/user-attachments/assets/f5fb0ec6-22d4-451e-b732-febda10dbc67)
+
 
 
 
